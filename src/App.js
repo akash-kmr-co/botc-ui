@@ -1,22 +1,19 @@
-import logo from './logo.svg';
+import botc_logo from "./botc_logo.png"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={botc_logo} /*className="App-logo"*/ alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <div style={{
+            'font-family': 'Creepster',
+            'color': 'red',
+            }}>
+            Coming soon to Ravenswood Bluff.
+          </div>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
